@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourister - Seasonal Tourist Attractions</title>
+    <link rel="stylesheet" type="text/css" href="n.css" >
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">Tourister</div>
+            <nav class="nav-menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 id="dynamic-heading">Discover Seasonal Wonders</h1>
+            <p class="hero-subtitle" id="dynamic-subtitle">Embark on a journey through the world's most beautiful destinations</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div id="season-selector">
+            <button onclick="changeSeason('Spring')">Spring Season</button>
+            <button onclick="changeSeason('Summer')">Summer Season</button>
+            <button onclick="changeSeason('Autumn')">Autumn Season</button>
+            <button onclick="changeSeason('Winter')">Winter Season</button>
+        </div>
+        <div id="attractions-grid"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Tourister</h3>
+                <p>Discover the world's most beautiful destinations with Tourister. We bring you curated travel experiences for every season.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Email: abc@Tourister.com</li>
+                    <li>Phone: +91 7482.....</li>
+                    <li>Address: 123 Travel Street, Adventure City, mumbai 12345</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Tourister. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="n.js"></script>
+</body>
+</html>
